@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splashImage: {fileID: 1593250123}
-  splashText: {fileID: 0}
+  splashImage2: {fileID: 1734106301}
   loadLevel: MainMenu
 --- !u!1 &1359732849
 GameObject:
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splashImage: {fileID: 0}
-  splashText: {fileID: 0}
+  splashImage2: {fileID: 0}
   loadLevel: 
 --- !u!1 &1950210827
 GameObject:
