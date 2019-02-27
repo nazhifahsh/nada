@@ -362,6 +362,8 @@ GameObject:
   - component: {fileID: 1636827788}
   - component: {fileID: 1636827787}
   - component: {fileID: 1636827786}
+  - component: {fileID: 1636827790}
+  - component: {fileID: 1636827789}
   - component: {fileID: 1636827785}
   m_Layer: 0
   m_Name: Main Camera
@@ -377,13 +379,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636827784}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c749e4f1273214d4b99351f0dbe38c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  splashImage: {fileID: 732580417}
-  loadLevel: MainMenu
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!81 &1636827786
 AudioListener:
   m_ObjectHideFlags: 0
@@ -448,3 +452,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1636827789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636827784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c944e9defa59644b7a96be31ef9513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splashImage: {fileID: 732580417}
+  loadLevel: MainMenu
+--- !u!114 &1636827790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636827784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a17a89eb089d934d8bdbb9dfab96917, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splashImage: {fileID: 732580417}
+  loadLevel: MainMenu
