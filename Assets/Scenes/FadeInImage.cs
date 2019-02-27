@@ -21,7 +21,7 @@ public class FadeProlog : MonoBehaviour
     }
     void FadeIn()
     {
-        splashImage.CrossFadeAlpha(0.0f, 3.5f, false);
+        splashImage.CrossFadeAlpha(0.0f, 4.5f, false);
 
 
     }
