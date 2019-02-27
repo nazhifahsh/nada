@@ -22,10 +22,10 @@ public class Storyfade : MonoBehaviour
     }
     void FadeIn()
     {
-        splashImage.CrossFadeAlpha(1.0f, 1.5f, false);
-        storyText.CrossFadeAlpha(1.0f, 1.5f, false);
+        splashImage.CrossFadeAlpha(0.0f, 1.5f, false);
+        storyText.CrossFadeAlpha(1.0f, 2.0f, false);
 
 
     }
-
+    
 }
