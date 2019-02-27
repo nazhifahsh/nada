@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a1e083cd7c3ddca4bada7523125ed06d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mook
+  fontNames:
+  - Mook
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1c0a8015746372b46bf09b7f639b737a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
