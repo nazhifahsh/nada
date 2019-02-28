@@ -4,28 +4,30 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-
 public class Storyfade : MonoBehaviour
 {
+
     public Image splashImage;
-    public Text storyText;
     public string loadLevel;
 
     IEnumerator Start()
     {
-        splashImage.canvasRenderer.SetAlpha(0.0f);
-        storyText.canvasRenderer.SetAlpha(0.0f);
+        splashImage.canvasRenderer.SetAlpha(6.0f);
 
         FadeIn();
+        yield return new WaitForSeconds(2.5f);
+        FadeOut();
         yield return new WaitForSeconds(4.5f);
-      
+        SceneManager.LoadScene(loadLevel);
+
     }
     void FadeIn()
     {
-        splashImage.CrossFadeAlpha(0.0f, 1.5f, false);
-        storyText.CrossFadeAlpha(1.0f, 2.0f, false);
-
-
+        splashImage.CrossFadeAlpha(1.0f, 1.0f, false);
     }
-    
+    void FadeOut()
+    {
+        splashImage.CrossFadeAlpha(0.0f, 4.5f, false);
+    }
 }
+
