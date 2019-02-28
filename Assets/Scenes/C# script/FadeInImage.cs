@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class FadeProlog : MonoBehaviour
+public class FadeInImage : MonoBehaviour
 {
     public Image splashImage;
     public string loadLevel;
@@ -21,7 +21,7 @@ public class FadeProlog : MonoBehaviour
     }
     void FadeIn()
     {
-        splashImage.CrossFadeAlpha(0.0f, 4.5f, false);
+        splashImage.CrossFadeAlpha(1.0f, 2.5f, false);
 
 
     }

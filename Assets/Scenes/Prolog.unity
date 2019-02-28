@@ -263,6 +263,7 @@ GameObject:
   - component: {fileID: 204423746}
   - component: {fileID: 204423745}
   - component: {fileID: 204423744}
+  - component: {fileID: 204423749}
   - component: {fileID: 204423748}
   - component: {fileID: 204423747}
   m_Layer: 0
@@ -351,6 +352,20 @@ MonoBehaviour:
   splashImage: {fileID: 75925512}
   loadLevel: 
 --- !u!114 &204423748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204423743}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c944e9defa59644b7a96be31ef9513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splashImage: {fileID: 75925512}
+  loadLevel: 
+--- !u!114 &204423749
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
