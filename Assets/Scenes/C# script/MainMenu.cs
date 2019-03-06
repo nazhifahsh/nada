@@ -24,9 +24,5 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Quit");
         Application.Quit();
     }
-    void FadeOut()
-    {
-        splashImage.CrossFadeAlpha(0.0f, 5.5f, false);
-
-    }
+  
 }
