@@ -16,6 +16,7 @@ public class FadeInImage : MonoBehaviour
 
         FadeIn();
         yield return new WaitForSeconds(4.5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 
     }
