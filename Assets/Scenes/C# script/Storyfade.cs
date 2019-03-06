@@ -12,7 +12,7 @@ public class Storyfade : MonoBehaviour
 
     IEnumerator Start()
     {
-        splashImage.canvasRenderer.SetAlpha(6.0f);
+        splashImage.canvasRenderer.SetAlpha(4.5f);
 
         FadeIn();
         yield return new WaitForSeconds(2.5f);
