@@ -12,7 +12,7 @@ public class TextFade1 : MonoBehaviour
 
     IEnumerator Start()
     {
-        splashText.canvasRenderer.SetAlpha(0.0f);
+        splashText.canvasRenderer.SetAlpha(1.5f);
 
         FadeIn();
         yield return new WaitForSeconds(1.5f);
