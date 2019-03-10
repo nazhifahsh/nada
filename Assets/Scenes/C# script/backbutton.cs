@@ -7,7 +7,7 @@ public class backbutton : MonoBehaviour
 {
     public void Back()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+        SceneManager.LoadScene("MainMenu");
     }
 
  
