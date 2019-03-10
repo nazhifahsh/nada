@@ -10,5 +10,9 @@ public class backbutton : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
 
+    public void Backscene()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
  
 }
