@@ -9,10 +9,5 @@ public class backbutton : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
-
-    public void Backscene()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
  
 }
