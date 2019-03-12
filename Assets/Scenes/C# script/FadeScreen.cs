@@ -15,9 +15,9 @@ public class FadeScreen : MonoBehaviour
         splashImage.canvasRenderer.SetAlpha(0.0f);
 
         FadeIn();
-        yield return new WaitForSeconds(4.5f);
+        yield return new WaitForSeconds(2.5f);
         FadeOut();
-        yield return new WaitForSeconds(4.5f);
+        yield return new WaitForSeconds(2.5f);
         SceneManager.LoadScene(loadLevel);
 
     }
@@ -30,7 +30,7 @@ public class FadeScreen : MonoBehaviour
 
     void FadeOut()
     {
-        splashImage.CrossFadeAlpha(0.0f, 4.5f, false);
+        splashImage.CrossFadeAlpha(0.0f, 2.5f, false);
 
     }
 }

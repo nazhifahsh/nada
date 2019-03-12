@@ -15,7 +15,7 @@ public class FadeInImage : MonoBehaviour
         splashImage.canvasRenderer.SetAlpha(0.0f);
 
         FadeIn();
-        yield return new WaitForSeconds(4.5f);
+        yield return new WaitForSeconds(2.5f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 

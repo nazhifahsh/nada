@@ -19,10 +19,10 @@ public class controller : MonoBehaviour
 
         switch (levelPassed)
         {
-            case 1:
+            case 5:
                 level02Button.interactable = true;
                 break;
-            case 2:
+            case 6:
                 level02Button.interactable = true;
                 level03Button.interactable = true;
                 break;

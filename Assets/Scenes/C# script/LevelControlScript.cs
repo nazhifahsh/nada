@@ -27,7 +27,7 @@ public class LevelControlScript : MonoBehaviour
 
     public void youWin()
     {
-        if (sceneIndex == 6)
+        if (sceneIndex == 7)
             Invoke("loadMainMenu", 1f);
         else
         {
