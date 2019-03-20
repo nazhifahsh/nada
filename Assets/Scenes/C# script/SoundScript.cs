@@ -14,7 +14,7 @@ public class SoundScript : MonoBehaviour
 
     void Start()
     {
-        music = GameObject.FindObjectOfType<Music>();
+        music = GameObject.FindGameObjectsWithTag("MenuMusic");
         UpdateIcon();
     }
 
