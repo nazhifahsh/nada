@@ -485,13 +485,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2003931294}
-  - component: {fileID: 2003931297}
   - component: {fileID: 2003931296}
+  - component: {fileID: 2003931295}
   - component: {fileID: 2003931293}
   m_Layer: 5
   m_Name: Music
   m_TagString: MenuMusic
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -610,6 +610,18 @@ RectTransform:
   m_AnchoredPosition: {x: 360, y: 640}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2003931295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003931292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3a4b0bb2eeae94b8531a6b824e9281, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &2003931296
 AudioSource:
   m_ObjectHideFlags: 0
@@ -706,15 +718,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2003931297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003931292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a3a4b0bb2eeae94b8531a6b824e9281, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
