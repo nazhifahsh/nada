@@ -27,7 +27,7 @@ public class LevelControlScript : MonoBehaviour
 
     public void youWin()
     {
-        if (sceneIndex == 7)
+        if (sceneIndex == 12)
             Invoke("loadMainMenu", 1f);
         else
         {
@@ -38,7 +38,7 @@ public class LevelControlScript : MonoBehaviour
     }
 
 
-    void loadNextLevel()
+    public void loadNextLevel()
     {
         SceneManager.LoadScene(sceneIndex + 1);
     }
