@@ -2,20 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class things : MonoBehaviour
+public class fin : MonoBehaviour
 {
-    public Animator animator;
-    bool foundd = false;
+   
     public Animator animator2;
     bool yay = false;
-
+   
     // Update is called once per frame
-    public void ketemu()
+    public void yo()
     {
-        foundd = true;
-        animator.SetBool("foundd", true);
         yay = true;
         animator2.SetBool("yay", true);
-
     }
 }
