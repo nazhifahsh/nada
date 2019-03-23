@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 
 public class Music : MonoBehaviour
+
 {
     static Music instance = null;
 
