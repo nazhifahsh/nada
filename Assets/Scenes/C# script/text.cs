@@ -6,22 +6,12 @@ using UnityEngine.UI;
 public class text : MonoBehaviour
 {
     public Animator anim;
-    bool click = false;
-    GameObject ea;
-    void Start()
+    bool udah = false;
+  
+    public void udaah()
     {
-        
+        udah = true;
+        anim.SetBool("udah", true);
     }
-
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            click = true;
-            anim.SetBool("click", true);
-
-        }
-    }
-
    
 }

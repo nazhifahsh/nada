@@ -5,19 +5,12 @@ using UnityEngine;
 public class txt : MonoBehaviour
 {
 
-    int speed = 50;
-    GameObject Ayah;
-
-    void Start()
+    public Animator nasihat;
+    bool nongol = false;
+  
+    public void nongoll()
     {
-        Ayah = GameObject.Find("Ayah");
-        
-        
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        transform.position = new Vector2(5, 379);
-       
+        nongol = true;
+        nasihat.SetBool("nongol", true);
     }
 }

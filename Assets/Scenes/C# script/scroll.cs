@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class scroll : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Animator udel;
+    bool booll = false;
+    bool boollagi = false;
 
-    // Update is called once per frame
-    void Update()
+    public void pencet()
     {
-        
+        booll= true;
+        udel.SetBool("bool", true);
+    }
+    public void geser()
+    {
+        boollagi = true;
+        udel.SetBool("boollagi", true);
     }
 }
