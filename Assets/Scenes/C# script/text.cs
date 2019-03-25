@@ -15,9 +15,20 @@ public class text : MonoBehaviour
         anim.SetBool("udah", true);
     }
 
-    public void uddah()
+    IEnumerator Start()
     {
-        tampil.CrossFadeAlpha(1.0f, 1.5f, false);
+        tampil.canvasRenderer.SetAlpha(0.0f);
+
+        FadeIn();
+        yield return new WaitForSeconds(2.5f);
+        
+
+
+    }
+
+    void FadeIn()
+    {
+       tampil.CrossFadeAlpha(1.0f, 2.5f, false);
 
 
     }
