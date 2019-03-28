@@ -8,14 +8,15 @@ public class text : MonoBehaviour
     public Animator anim;
     bool udah = false;
     public Image tampil;
-  
+    public BoxCollider2D tiriri;
+
     public void udaah()
     {
         udah = true;
         anim.SetBool("udah", true);
     }
 
-    IEnumerator Start()
+    public IEnumerator Start()
     {
         tampil.canvasRenderer.SetAlpha(0.0f);
 
