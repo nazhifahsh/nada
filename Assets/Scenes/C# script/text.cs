@@ -7,11 +7,33 @@ public class text : MonoBehaviour
 {
     public Animator anim;
     bool udah = false;
-  
+    public Image tampil;
+    public BoxCollider2D tiriri;
+
     public void udaah()
     {
         udah = true;
         anim.SetBool("udah", true);
     }
-   
+
+    public IEnumerator Start()
+    {
+        tampil.canvasRenderer.SetAlpha(0.0f);
+
+        FadeIn();
+        yield return new WaitForSeconds(2.5f);
+        
+
+
+    }
+
+    void FadeIn()
+    {
+       tampil.CrossFadeAlpha(1.0f, 2.5f, false);
+
+
+    }
+
 }
+
+
