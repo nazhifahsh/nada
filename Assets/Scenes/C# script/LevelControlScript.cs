@@ -8,6 +8,8 @@ public class LevelControlScript : MonoBehaviour
 {
 
     public static LevelControlScript instance = null;
+    public static int score = 0,klik=0;
+    
   
     int sceneIndex, levelPassed;
 
@@ -23,6 +25,15 @@ public class LevelControlScript : MonoBehaviour
 
         sceneIndex = SceneManager.GetActiveScene().buildIndex;
         levelPassed = PlayerPrefs.GetInt("LevelPassed");
+    }
+    void Update()
+    {
+        if (score == 9||klik==6)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            score++;
+            klik++;
+        }
     }
 
     public void youWin()
