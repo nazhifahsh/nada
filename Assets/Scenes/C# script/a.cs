@@ -6,9 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class a : MonoBehaviour
 {
+  
     public Animator aw;
     bool hehe=false,hehehe=false;
-  
+
+   
 
     public void eh()
     {
@@ -21,7 +23,7 @@ public class a : MonoBehaviour
         hehehe = true;
         aw.SetBool("hehehe", true);
     }
-
+   
     public void ehhh()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

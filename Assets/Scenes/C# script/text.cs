@@ -15,6 +15,12 @@ public class text : MonoBehaviour
         udah = true;
         anim.SetBool("udah", true);
     }
+    public void udaahh()
+    {
+        udah = true;
+        anim.SetBool("udah", true);
+        scroll.instance.woi();
+    }
 
     public IEnumerator Start()
     {

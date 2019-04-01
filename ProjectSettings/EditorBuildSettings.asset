@@ -15,19 +15,19 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu/nyempil.unity
     guid: cdfdb8d6081334f48827d8403965b703
   - enabled: 1
-    path: Assets/Scenes/Prolog.unity
+    path: Assets/Scenes/Prolog/Prolog.unity
     guid: 9ba5fad8bd5b2f1469317541a69bf3d2
   - enabled: 1
-    path: Assets/Scenes/Prolog2.unity
+    path: Assets/Scenes/Prolog/Prolog2.unity
     guid: b962b16bd128e754094d50fcb8326a84
   - enabled: 1
-    path: Assets/Scenes/Prolog3.unity
+    path: Assets/Scenes/Prolog/Prolog3.unity
     guid: 75f73ee56a6801d459c7ec068bac7300
   - enabled: 1
-    path: Assets/Scenes/Prolog4.unity
+    path: Assets/Scenes/Prolog/Prolog4.unity
     guid: 2aa482a5dedf5884e9bb8d77ce0749ec
   - enabled: 1
-    path: Assets/Scenes/Prolog5.unity
+    path: Assets/Scenes/Prolog/Prolog5.unity
     guid: 62f9719a1c895a542a26c6de2d48ade9
   - enabled: 1
     path: Assets/Scenes/Scene Keberangkatan/Keberangkatan.unity
@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene Keberangkatan/Keberangkatan2.unity
     guid: c7c8a21e8802e044baa891d055648729
   - enabled: 1
-    path: Assets/Scenes/Scene Keberangkatan/Keberangkatan1.1.unity
+    path: Assets/Scenes/Scene Keberangkatan/Keberangkatan3.unity
     guid: 10232375f897294459d79a73cd630134
   - enabled: 1
     path: Assets/Scenes/Scene Keberangkatan/Keberangkatan 1.2.unity
