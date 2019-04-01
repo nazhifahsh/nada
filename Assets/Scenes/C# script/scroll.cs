@@ -18,7 +18,7 @@ public class scroll : MonoBehaviour
             Destroy(gameObject);
 
 
-
+        
     }
 
 
@@ -42,7 +42,7 @@ public class scroll : MonoBehaviour
     }
     public void woi()
     {
-        udel.SetBool("ow", true);
+        udel.SetTrigger("auu");
     }
 }
 
