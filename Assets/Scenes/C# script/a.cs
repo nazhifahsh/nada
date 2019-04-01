@@ -6,22 +6,25 @@ using UnityEngine.SceneManagement;
 
 public class a : MonoBehaviour
 {
-    public Rigidbody2D rb;
+    public Animator aw;
+    bool hehe=false,hehehe=false;
+  
 
-    void Start()
+    public void eh()
     {
-        rb=GetComponent<Rigidbody2D>();
+        hehe = true;
+        aw.SetBool("hehe", true);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ehh()
     {
-        rb.velocity = new Vector2(180, rb.velocity.y);
-
-        if (transform.position.x > 2460.8)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
-        }
+        hehehe = true;
+        aw.SetBool("hehehe", true);
     }
-   
+
+    public void ehhh()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    
 }
