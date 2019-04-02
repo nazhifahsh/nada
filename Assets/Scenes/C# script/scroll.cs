@@ -44,5 +44,9 @@ public class scroll : MonoBehaviour
     {
         udel.SetTrigger("auu");
     }
+    public void yy()
+    {
+        udel.SetBool("onklik", true);
+    }
 }
 
