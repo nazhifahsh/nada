@@ -76,6 +76,10 @@ public class scroll : MonoBehaviour
     {
         udel.SetBool("ko",true);
     }
+    public void mee()
+    {
+        udel.SetBool("ke", true);
+    }
     public void io()
     {
         udel.SetBool("io",true);
@@ -112,5 +116,30 @@ public class scroll : MonoBehaviour
     {
         udel.SetBool("tooo", true);
     }
+    public void ttxt0()
+    {
+        udel.SetBool("teo", true);
+    }
+    public void nas()
+    {
+        udel.SetBool("tzt", true);
+    }
+    public void nas2()
+    {
+        udel.SetBool("tzt2", true);
+    }
+    public void nas3()
+    {
+        udel.SetBool("tzt3", true);
+    }
+    public void nas4()
+    {
+        udel.SetBool("tzt4", true);
+    }
+    public void nas5()
+    {
+        udel.SetBool("tzt5", true);
+    }
+
 }
 
