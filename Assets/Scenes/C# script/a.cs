@@ -28,5 +28,8 @@ public class a : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-    
+    public void yow()
+    {
+        aw.SetBool("hehehehe", true);
+    }
 }

@@ -14,13 +14,8 @@ public class things : MonoBehaviour
     {
         foundd = true;
         animator.SetBool("foundd", true);
-        if (animator.enabled)
-        {
-            LevelControlScript.score += 1;
-        }
-       
-
-
+        img.score += 1;
+        
     }
    
 }

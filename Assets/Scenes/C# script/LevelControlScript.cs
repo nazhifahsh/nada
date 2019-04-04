@@ -30,11 +30,10 @@ public class LevelControlScript : MonoBehaviour
     }
     void Update()
     {
-        if (score == 9||klik==6)
+        if (klik==6)
         {
-           
+
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            score++;
             klik++;
         }
     }
