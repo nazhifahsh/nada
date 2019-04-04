@@ -14,4 +14,8 @@ public class fin : MonoBehaviour
         yay = true;
         animator2.SetBool("yay", true);
     }
+    public void boo()
+    {
+        animator2.SetBool("boo", true);
+    }
 }

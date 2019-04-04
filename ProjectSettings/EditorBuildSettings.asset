@@ -45,9 +45,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene Keberangkatan/Keberangkatan3.unity
     guid: 10232375f897294459d79a73cd630134
   - enabled: 1
-    path: Assets/Scenes/Scene Keberangkatan/Keberangkatan 1.2.unity
-    guid: 188ab5cb3e88cb94fb2eab0b1a0788e0
-  - enabled: 1
     path: Assets/Scenes/Tangis Nada.unity
     guid: 6e40937613cb45f4b960caa378df1bc9
   - enabled: 1
