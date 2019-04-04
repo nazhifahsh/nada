@@ -16,7 +16,7 @@ public class adab : MonoBehaviour
     {
         oq = true;
         adabb.SetBool("oq", true);
-        LevelControlScript.klik += 1;
+        imm.score += 1;
     }
   
 
