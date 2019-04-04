@@ -24,6 +24,7 @@ public class img : MonoBehaviour
         {
             yo();
         }
+
     }
     public void yo()
     {
