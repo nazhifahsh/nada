@@ -34,11 +34,11 @@ public class ChapterController : MonoBehaviour
         }
         
     }
-
-    public void levelToLoad (int level)
+    public void levelToLoad(int level)
     {
-        SceneManager.Loadscene(level);
+        SceneManager.LoadScene(level);
     }
+
 
     public void resetPlayerPrefs()
     {

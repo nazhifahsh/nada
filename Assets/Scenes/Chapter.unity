@@ -599,7 +599,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2007757903}
+      - m_Target: {fileID: 2007757905}
         m_MethodName: levelToLoad
         m_Mode: 3
         m_Arguments:
@@ -882,13 +882,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2007757903}
+      - m_Target: {fileID: 2007757905}
         m_MethodName: levelToLoad
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
+          m_IntArgument: 13
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1250,7 +1250,7 @@ GameObject:
   - component: {fileID: 952876230}
   - component: {fileID: 952876229}
   m_Layer: 5
-  m_Name: Sudut Pesantren
+  m_Name: SudutPesantren
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2007757903}
+      - m_Target: {fileID: 2007757905}
         m_MethodName: levelToLoad
         m_Mode: 3
         m_Arguments:
@@ -2314,6 +2314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2007757904}
   - component: {fileID: 2007757903}
+  - component: {fileID: 2007757905}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -2328,7 +2329,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2007757902}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d4109b7d26a646546ae2177fcc95895e, type: 3}
   m_Name: 
@@ -2349,6 +2350,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2007757905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007757902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152c749225e88c84290f5515876ed839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prolog: {fileID: 0}
+  Keberangkatan: {fileID: 457822704}
+  TangisNada: {fileID: 775086059}
+  Bismillah: {fileID: 1452092481}
+  BelumTerbiasa: {fileID: 1669919094}
+  Sarapan: {fileID: 890207847}
+  SudutPesantren: {fileID: 952876229}
+  Tahfizh: {fileID: 402569100}
 --- !u!1 &2054518776
 GameObject:
   m_ObjectHideFlags: 0
