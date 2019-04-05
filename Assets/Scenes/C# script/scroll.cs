@@ -140,6 +140,22 @@ public class scroll : MonoBehaviour
     {
         udel.SetBool("tzt5", true);
     }
+    public void tr()
+    {
+        udel.SetBool("lst", true);
+    }
+    public void trk()
+    {
+        udel.SetBool("lstt", true);
+    }
+    public void rkr()
+    {
+        udel.SetBool("lsttt", true);
+    }
+    public void trkhr()
+    {
+        udel.SetBool("end", true);
+    }
 
 }
 
