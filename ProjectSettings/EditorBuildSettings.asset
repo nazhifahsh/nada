@@ -45,22 +45,22 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene Keberangkatan/Keberangkatan3.unity
     guid: 10232375f897294459d79a73cd630134
   - enabled: 1
-    path: Assets/Scenes/Tangis Nada.unity
+    path: Assets/Scenes/Tangis Nada/Tangis Nada.unity
     guid: 6e40937613cb45f4b960caa378df1bc9
   - enabled: 1
-    path: Assets/Scenes/Bismillah.unity
+    path: Assets/Scenes/Bismillah/Bismillah.unity
     guid: 04ba6fdb8d94caa4b80829bb788f426e
   - enabled: 1
-    path: Assets/Scenes/Belum Terbiasa.unity
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa.unity
     guid: a060b1c0f7da3414ab2ac2ba69569a9a
   - enabled: 1
-    path: Assets/Scenes/Sarapan.unity
+    path: Assets/Scenes/Sarapan/Sarapan.unity
     guid: 9505d50ca98cecc4e8435ed73e82bd85
   - enabled: 1
-    path: Assets/Scenes/Sudut Pesantren.unity
+    path: Assets/Scenes/Sudut Pesantren/Sudut Pesantren.unity
     guid: f512f4c85cd87ce4e8e8de38e319772f
   - enabled: 1
-    path: Assets/Scenes/Tahfizh.unity
+    path: Assets/Scenes/Tahfidz/Tahfizh.unity
     guid: 5efd72b02097f064eaa641e1032f80ba
   - enabled: 1
     path: Assets/Scenes/Chapter.unity
