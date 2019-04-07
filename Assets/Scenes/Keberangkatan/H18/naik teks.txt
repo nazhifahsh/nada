@@ -1,0 +1,5 @@
+teks1: "Allahuakbar" (font besar) posisi di atas mobil (rata tengah)
+
+Teks2: Saat jalanan menanjak (font gak terlalu besar dan posisi di bawah rata kiri)
+
+animasi fade in saat disentuh setelah teks keluar semua disentuh sekali lagi untuk pindah hal
