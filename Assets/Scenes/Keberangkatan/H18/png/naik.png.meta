@@ -1,7 +1,9 @@
 fileFormatVersion: 2
-guid: a1f30c8911bf3174ba84e835e74976a0
+guid: 605c25209235d204c95992b4c1414b83
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: naik_0
+    21300002: naik_1
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -93,11 +95,51 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: naik_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 680
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35b3debf7969fe4a81ef24e677ecffb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naik_1
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 0
+        width: 678
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b89d946ae53bd469413117e6f75733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1081503ee3ba8c5408161e21940849e3
+    spriteID: a6e2f80c9dc438e44b8250fef970d93c
     vertices: []
     indices: 
     edges: []
