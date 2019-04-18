@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu/MainMenu.unity
     guid: 57cedcd9ac9d95a4797d0ab1dba2607b
   - enabled: 1
-    path: Assets/Scenes/MainMenu/nyempil.unity
-    guid: cdfdb8d6081334f48827d8403965b703
-  - enabled: 1
     path: Assets/Scenes/Prolog/Prolog.unity
     guid: 9ba5fad8bd5b2f1469317541a69bf3d2
   - enabled: 1
@@ -45,14 +42,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Keberangkatan/Keberangkatan3.unity
     guid: 10232375f897294459d79a73cd630134
   - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa.unity
+    guid: a060b1c0f7da3414ab2ac2ba69569a9a
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa 2.unity
+    guid: 609e51642c7536f4ba078403454e1d80
+  - enabled: 1
     path: Assets/Scenes/Tangis Nada/Tangis Nada.unity
     guid: 6e40937613cb45f4b960caa378df1bc9
   - enabled: 1
     path: Assets/Scenes/Bismillah/Bismillah.unity
     guid: 04ba6fdb8d94caa4b80829bb788f426e
-  - enabled: 1
-    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa.unity
-    guid: a060b1c0f7da3414ab2ac2ba69569a9a
   - enabled: 1
     path: Assets/Scenes/Sarapan/Sarapan.unity
     guid: 9505d50ca98cecc4e8435ed73e82bd85

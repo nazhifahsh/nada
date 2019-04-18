@@ -6,7 +6,12 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    public Image splashImage;
+    public Animator ye;
+
+    public void story()
+    {
+        ye.SetBool("story", true);
+    }
     public void PlayGame()
     {
       
