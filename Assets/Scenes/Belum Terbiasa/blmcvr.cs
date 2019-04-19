@@ -20,6 +20,10 @@ public class blmcvr : MonoBehaviour
     {
         woo.SetBool("m2", true);
     }
+    public void move3()
+    {
+        woo.SetBool("m3", true);
+    }
     public void pindh()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -34,7 +38,7 @@ public class blmcvr : MonoBehaviour
     }
     void Update()
     {
-        if (aha == 2)
+        while (aha == 2)
         {
             Handheld.Vibrate();
         }
