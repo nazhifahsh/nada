@@ -48,6 +48,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa 2.unity
     guid: 609e51642c7536f4ba078403454e1d80
   - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa 2.2.unity
+    guid: dd4feccf9b3ac7c4ebc16966fc9d3b56
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa3.unity
+    guid: 12fc348ff547cc940a276d2f163befc6
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa3.2.unity
+    guid: 092c1c2775111f940a25944d3608f710
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa3.3.unity
+    guid: 1a6f6aa777c4a634dbd1f6c9edddb988
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa4.unity
+    guid: c357843972b62a142a4b386d88175f5b
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa4.2.unity
+    guid: 18e19ea34c1ac8547a2b1ca8b7bf4c22
+  - enabled: 1
+    path: Assets/Scenes/Tahfidz/Tahfizh.unity
+    guid: 5efd72b02097f064eaa641e1032f80ba
+  - enabled: 1
     path: Assets/Scenes/Tangis Nada/Tangis Nada.unity
     guid: 6e40937613cb45f4b960caa378df1bc9
   - enabled: 1
@@ -59,9 +80,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sudut Pesantren/Sudut Pesantren.unity
     guid: f512f4c85cd87ce4e8e8de38e319772f
-  - enabled: 1
-    path: Assets/Scenes/Tahfidz/Tahfizh.unity
-    guid: 5efd72b02097f064eaa641e1032f80ba
   - enabled: 1
     path: Assets/Scenes/Chapter.unity
     guid: 192c5bb88946f9b468153f7bba5ccbfe
