@@ -66,17 +66,47 @@ EditorBuildSettings:
     path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa4.2.unity
     guid: 18e19ea34c1ac8547a2b1ca8b7bf4c22
   - enabled: 1
+    path: Assets/Scenes/Sarapan/Sarapan.unity
+    guid: 9505d50ca98cecc4e8435ed73e82bd85
+  - enabled: 1
     path: Assets/Scenes/Tahfidz/Tahfizh.unity
     guid: 5efd72b02097f064eaa641e1032f80ba
+  - enabled: 1
+    path: Assets/Scenes/QCB/qcb.unity
+    guid: 9ede0ee577c61664a894bee5615e93dc
+  - enabled: 1
+    path: Assets/Scenes/QCB/bgameqcb.unity
+    guid: 3de9982c3af86ba42919deb8e29c69b7
+  - enabled: 1
+    path: Assets/Scenes/QCB/gameqcb.unity
+    guid: fa4fde2b88b967c42876a5be0cc2506d
+  - enabled: 1
+    path: Assets/Scenes/QCB/qcb2.unity
+    guid: b6c6298701a8c9249a81209378cda9fa
+  - enabled: 1
+    path: Assets/Scenes/QCB/gameqcb2.unity
+    guid: 02db2e4fd0f96924b8f255deacf52754
+  - enabled: 1
+    path: Assets/Scenes/QCB/gameqcb3.unity
+    guid: 6ced45396af1422439a35d551bffbe51
+  - enabled: 1
+    path: Assets/Scenes/Diariku/Diariq.unity
+    guid: 5e04a2ad5347c464f9cf9548af8fc743
+  - enabled: 1
+    path: Assets/Scenes/HPTime/hptime.unity
+    guid: 1934bef4e4adc0a428d7bd9122054c9c
+  - enabled: 1
+    path: Assets/Scenes/Kucing Pesantren/Kucing Pesantren.unity
+    guid: 1d1656fcf2177554fb5874a108968a21
+  - enabled: 1
+    path: Assets/Scenes/targetmenurun/targetmenurun.unity
+    guid: 2fea3601ddb717c4ca28f9a4e87b0028
   - enabled: 1
     path: Assets/Scenes/Tangis Nada/Tangis Nada.unity
     guid: 6e40937613cb45f4b960caa378df1bc9
   - enabled: 1
     path: Assets/Scenes/Bismillah/Bismillah.unity
     guid: 04ba6fdb8d94caa4b80829bb788f426e
-  - enabled: 1
-    path: Assets/Scenes/Sarapan/Sarapan.unity
-    guid: 9505d50ca98cecc4e8435ed73e82bd85
   - enabled: 1
     path: Assets/Scenes/Sudut Pesantren/Sudut Pesantren.unity
     guid: f512f4c85cd87ce4e8e8de38e319772f

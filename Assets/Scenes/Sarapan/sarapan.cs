@@ -6,49 +6,50 @@ using UnityEngine.SceneManagement;
 public class sarapan : MonoBehaviour
 {
     public Animator bebek;
-    public Animator kodok;
 
+    public void o1()
+    {
+        bebek.SetBool("s1", true);
+    }
     public void o2()
     {
-        bebek.SetBool("2", true);
+        bebek.SetBool("s2", true);
     }
     public void o3()
     {
-        bebek.SetBool("3", true);
+        bebek.SetBool("s3", true);
     }
     public void o4()
     {
-        bebek.SetBool("4", true);
+        bebek.SetBool("s4", true);
     }
     public void o5()
     {
-        bebek.SetBool("5", true);
+        bebek.SetBool("s5", true);
     }
     public void o6()
     {
-        bebek.SetBool("6", true);
+        bebek.SetBool("s6", true);
     }
     public void o7()
     {
-        bebek.SetBool("7", true);
+        bebek.SetBool("s7", true);
     }
-    public void o75()
+    public void o35()
     {
-        bebek.SetBool("7.5", true);
+        bebek.SetBool("s35", true);
     }
     public void o8()
     {
-        bebek.SetBool("8", true);
+        bebek.SetBool("s8", true);
     }
-    public void fadein()
+    public void o9()
     {
-        kodok.SetBool("fade", false);
-
+        bebek.SetBool("s9", true);
     }
-    public void fadeout()
+    public void o10()
     {
-        kodok.SetBool("fade", true);
-
+        bebek.SetBool("s10", true);
     }
     public void pindah()
     {
