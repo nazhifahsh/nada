@@ -72,6 +72,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Tahfidz/Tahfizh.unity
     guid: 5efd72b02097f064eaa641e1032f80ba
   - enabled: 1
+    path: Assets/Scenes/Tahfidz/Tahfizh2.unity
+    guid: 7858c1148956fb047b35cd7f72f52598
+  - enabled: 1
+    path: Assets/Scenes/Tahfidz/Tahfizh 3.unity
+    guid: 1133efe5bb935474eb61ff2f35f87a7e
+  - enabled: 1
     path: Assets/Scenes/QCB/qcb.unity
     guid: 9ede0ee577c61664a894bee5615e93dc
   - enabled: 1
