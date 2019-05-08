@@ -11,7 +11,7 @@ public class drag : MonoBehaviour
 
     private float deltaX, deltaY;
 
-    public static bool locked;
+    public static int muehe=0;
 
     void Start()
     {
@@ -20,7 +20,7 @@ public class drag : MonoBehaviour
 
     private void Update()
     {
-        if (Input.touchCount>0 && !locked)
+        if (Input.touchCount >0 && muehe!=7)
         {
             Touch touch = Input.GetTouch(0);
             Vector2 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
@@ -42,11 +42,11 @@ public class drag : MonoBehaviour
                     }
                     break;
                 case TouchPhase.Ended:
-                    if(Mathf.Abs(transform.position.x-bearPlace.position.x)<=0.5f&&
+                    if(Mathf.Abs(transform.position.x-bearPlace.position.x)<=0.5f &&
                         Mathf.Abs(transform.position.y - bearPlace.position.y) <= 0.5f)
                     {
                         transform.position = new Vector2(bearPlace.position.x, bearPlace.position.y);
-                        locked = true;
+                        muehe += 1;
                     }
                     else
                     {
