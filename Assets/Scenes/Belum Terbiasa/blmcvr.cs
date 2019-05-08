@@ -99,6 +99,10 @@ public class blmcvr : MonoBehaviour
     {
         woo.SetBool("442p", true);
     }
+    public void mmm()
+    {
+        woo.SetBool("443p", true);
+    }
     public void ngz()
     {
         woo.SetBool("nganz", true);

@@ -4,23 +4,56 @@ using UnityEngine;
 
 public class drag : MonoBehaviour
 {
-    public BoxCollider a1;
-    float distance = 10;
-    void OnMouseDrag()
-    {
-        Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, distance);
-        Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
-        transform.position = objPosition;
-    }
+    [SerializeField]
+    private Transform bearPlace;
+
+    private Vector2 initialPosition;
+
+    private float deltaX, deltaY;
+
+    public static int muehe=0;
+
     void Start()
     {
-        a1 = gameObject.GetComponent<BoxCollider>();
+        initialPosition = transform.position;
     }
-    void Update()
+
+    private void Update()
     {
-        if (a1.transform.position.x < 2 && a1.transform.position.x > 1 && a1.transform.position.y < 29.4 && a1.transform.position.y > 28.7)
+        if (Input.touchCount >0 && muehe!=7)
         {
-            Debug.Log("BISA");
+            Touch touch = Input.GetTouch(0);
+            Vector2 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
+
+            switch (touch.phase)
+            {
+                case TouchPhase.Began:
+                    if (GetComponent<Collider2D>() == Physics2D.OverlapPoint(touchPos))
+                    {
+                        deltaX = touchPos.x - transform.position.x;
+                        deltaY = touchPos.y - transform.position.y;
+                    }
+                    break;
+
+                case TouchPhase.Moved:
+                    if (GetComponent<Collider2D>() == Physics2D.OverlapPoint(touchPos))
+                    {
+                        transform.position = new Vector2(touchPos.x - deltaX, touchPos.y - deltaY);
+                    }
+                    break;
+                case TouchPhase.Ended:
+                    if(Mathf.Abs(transform.position.x-bearPlace.position.x)<=0.5f &&
+                        Mathf.Abs(transform.position.y - bearPlace.position.y) <= 0.5f)
+                    {
+                        transform.position = new Vector2(bearPlace.position.x, bearPlace.position.y);
+                        muehe += 1;
+                    }
+                    else
+                    {
+                        transform.position = new Vector2(initialPosition.x, initialPosition.y);
+                    }
+                    break;
+            }
         }
     }
 }
