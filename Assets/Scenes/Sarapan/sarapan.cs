@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class sarapan : MonoBehaviour
 {
     public Animator bebek;
+    public AudioSource itik;
 
     public void o1()
     {
@@ -54,5 +55,9 @@ public class sarapan : MonoBehaviour
     public void pindah()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void blwe()
+    {
+        itik.Play();
     }
 }

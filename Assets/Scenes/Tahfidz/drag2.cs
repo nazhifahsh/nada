@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class drag : MonoBehaviour
+public class drag2 : MonoBehaviour
 {
     [SerializeField]
     private Transform bearPlace;
@@ -20,7 +20,7 @@ public class drag : MonoBehaviour
 
     private void Update()
     {
-        if (Input.touchCount >0 &&yay==false)
+        if (Input.touchCount > 0 && yay == false)
         {
             Touch touch = Input.GetTouch(0);
             Vector2 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
@@ -42,7 +42,7 @@ public class drag : MonoBehaviour
                     }
                     break;
                 case TouchPhase.Ended:
-                    if(Mathf.Abs(transform.position.x-bearPlace.position.x)<=0.5f &&
+                    if (Mathf.Abs(transform.position.x - bearPlace.position.x) <= 0.5f &&
                         Mathf.Abs(transform.position.y - bearPlace.position.y) <= 0.5f)
                     {
                         transform.position = new Vector2(bearPlace.position.x, bearPlace.position.y);
