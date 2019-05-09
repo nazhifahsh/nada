@@ -9,10 +9,11 @@ public class Soundonandoff : MonoBehaviour
     public bool musicMute;
     public Sprite musicOn;
     public Sprite musicOff;
+    private Music music;
 
     void Start()
     {
-        musicMute = false;
+        
         if (AudioListener.volume == 1)
         {
             b.image.sprite = musicOn;
@@ -29,12 +30,14 @@ public class Soundonandoff : MonoBehaviour
         if (musicMute)
         {
             AudioListener.volume = 0;
-
+            b.GetComponent<Image>().sprite = musicOff;
         }
         else if (!musicMute)
         {
             AudioListener.volume = 1;
+            b.GetComponent<Image>().sprite = musicOn;
+
         }
-     }
+    }
  
 }
