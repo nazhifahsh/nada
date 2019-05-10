@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Pause
   - MenuMusic
+  - ustadzah
+  - left ust
+  - right ust
+  - Nada
+  - azam
   layers:
   - Default
   - TransparentFX
@@ -42,4 +47,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 194462661
     locked: 0
