@@ -107,13 +107,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/targetmenurun/targetmenurun.unity
     guid: 2fea3601ddb717c4ca28f9a4e87b0028
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tangis Nada/Tangis Nada.unity
     guid: 6e40937613cb45f4b960caa378df1bc9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bismillah/Bismillah.unity
     guid: 04ba6fdb8d94caa4b80829bb788f426e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Sudut Pesantren/Sudut Pesantren.unity
     guid: f512f4c85cd87ce4e8e8de38e319772f
   - enabled: 1

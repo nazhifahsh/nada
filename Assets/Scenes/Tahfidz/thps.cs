@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class thps : MonoBehaviour
 {
@@ -66,5 +67,8 @@ public class thps : MonoBehaviour
     {
         ayam.SetBool("sec", false);
     }
-   
+   public void lanjoot()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }

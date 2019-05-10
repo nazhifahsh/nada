@@ -201,8 +201,8 @@ GameObject:
   m_Component:
   - component: {fileID: 426686536}
   - component: {fileID: 426686535}
-  - component: {fileID: 426686533}
   - component: {fileID: 426686534}
+  - component: {fileID: 426686533}
   m_Layer: 0
   m_Name: Pembukaan
   m_TagString: Untagged
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 426686532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e05f13b5d9b22d41b115827c17d4031, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ffeaf706608fb44d9fe3e455a53d58f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bearPlace: {fileID: 1277881486}
@@ -757,8 +757,8 @@ GameObject:
   m_Component:
   - component: {fileID: 755388461}
   - component: {fileID: 755388460}
-  - component: {fileID: 755388458}
   - component: {fileID: 755388459}
+  - component: {fileID: 755388458}
   m_Layer: 0
   m_Name: Orang yg Berselimut
   m_TagString: Untagged
@@ -775,7 +775,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 755388457}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e05f13b5d9b22d41b115827c17d4031, type: 3}
+  m_Script: {fileID: 11500000, guid: ad572a6c7b9572a41915e61513f2bff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bearPlace: {fileID: 1477325682}
@@ -877,8 +877,8 @@ GameObject:
   m_Component:
   - component: {fileID: 764847729}
   - component: {fileID: 764847728}
-  - component: {fileID: 764847726}
   - component: {fileID: 764847727}
+  - component: {fileID: 764847726}
   m_Layer: 0
   m_Name: Gajah
   m_TagString: Untagged
@@ -895,7 +895,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 764847725}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e05f13b5d9b22d41b115827c17d4031, type: 3}
+  m_Script: {fileID: 11500000, guid: c2d549dbe448a3c4e8cc43b14701a195, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bearPlace: {fileID: 747421185}
@@ -1076,8 +1076,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1074236374}
   - component: {fileID: 1074236373}
-  - component: {fileID: 1074236371}
   - component: {fileID: 1074236372}
+  - component: {fileID: 1074236371}
   m_Layer: 0
   m_Name: Wanita
   m_TagString: Untagged
@@ -1094,7 +1094,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1074236370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e05f13b5d9b22d41b115827c17d4031, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c9d3df03f1c58740b2c6a9cf6bb26e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bearPlace: {fileID: 428025080}
@@ -1849,8 +1849,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1993151979}
   - component: {fileID: 1993151978}
-  - component: {fileID: 1993151976}
   - component: {fileID: 1993151977}
+  - component: {fileID: 1993151976}
   m_Layer: 0
   m_Name: Waktu Shubuh
   m_TagString: Untagged
@@ -1867,7 +1867,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1993151975}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e05f13b5d9b22d41b115827c17d4031, type: 3}
+  m_Script: {fileID: 11500000, guid: 2389dd848e41bcd42ae66ac0d5581f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bearPlace: {fileID: 1689581315}
@@ -2127,8 +2127,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2126285610}
   - component: {fileID: 2126285609}
-  - component: {fileID: 2126285607}
   - component: {fileID: 2126285608}
+  - component: {fileID: 2126285607}
   m_Layer: 0
   m_Name: Berita Besar
   m_TagString: Untagged
@@ -2145,7 +2145,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2126285606}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e05f13b5d9b22d41b115827c17d4031, type: 3}
+  m_Script: {fileID: 11500000, guid: 6dc8ed65b4de71a46894c2f3204afc67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bearPlace: {fileID: 1395142284}

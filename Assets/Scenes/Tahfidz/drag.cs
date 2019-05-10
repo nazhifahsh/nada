@@ -11,7 +11,7 @@ public class drag : MonoBehaviour
 
     private float deltaX, deltaY;
 
-    public static int muehe=0;
+    public static bool yay = false;
 
     void Start()
     {
@@ -20,7 +20,7 @@ public class drag : MonoBehaviour
 
     private void Update()
     {
-        if (Input.touchCount >0 && muehe!=7)
+        if (Input.touchCount >0 &&yay==false)
         {
             Touch touch = Input.GetTouch(0);
             Vector2 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
@@ -46,7 +46,8 @@ public class drag : MonoBehaviour
                         Mathf.Abs(transform.position.y - bearPlace.position.y) <= 0.5f)
                     {
                         transform.position = new Vector2(bearPlace.position.x, bearPlace.position.y);
-                        muehe += 1;
+
+                        yay = true;
                     }
                     else
                     {

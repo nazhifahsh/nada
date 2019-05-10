@@ -6,6 +6,7 @@ public class khss : MonoBehaviour
 {
     public Animator sapi;
     public Animator kambing;
+    public AudioSource kutu;
 
     public void min()
     {
@@ -18,5 +19,13 @@ public class khss : MonoBehaviour
     public void kdps()
     {
         kambing.SetBool("mon", false);
+    }
+    public void eya()
+    {
+        kutu.Play();
+    }
+    public void ey0()
+    {
+        kutu.Stop();
     }
 }
