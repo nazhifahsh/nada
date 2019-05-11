@@ -9,5 +9,10 @@ public class backbutton : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
- 
+
+    public void prolog()
+    {
+        SceneManager.LoadScene("Prolog");
+    }
+
 }
