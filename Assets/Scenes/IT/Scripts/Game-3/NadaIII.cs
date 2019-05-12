@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Nada : MonoBehaviour
+public class NadaIII : MonoBehaviour
 {
-
     private Collider2D collider_Nada;
     private Rigidbody2D rb;
     public Joystick joy;
@@ -17,28 +16,26 @@ public class Nada : MonoBehaviour
     Rigidbody2D rigid;
     GameObject objects;
     bool move = false;
-    public GameObject limitLeft;
-    public Collider2D collider_azam;
-    public Collider2D collider_Left;
+    public GameObject limitLeft, limitBottom;
+    private Collider2D colBottom;
+   
+
     public bool canWalk = true;
-
-
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
         collider_Nada = GetComponent<Collider2D>();
-        Nada mario = FindObjectOfType<Nada>();
+        NadaIII mario = FindObjectOfType<NadaIII>();
         objects = mario.gameObject;
-        collider_azam = GameObject.FindGameObjectWithTag("azam").GetComponent<Collider2D>();
-        collider_Left = GameObject.FindGameObjectWithTag("left ust").GetComponent<Collider2D>();
-
+        colBottom = limitBottom.GetComponent<Collider2D>();
+       
     }
 
+    // Update is called once per frame
     void Update()
     {
-
         StartCoroutine(come());
         if (move)
         {
@@ -69,18 +66,11 @@ public class Nada : MonoBehaviour
 
             }
         }
-       
-
-        //  Debug.Log("V "+joy.Vertical);
-
-
-       
-        //Variables for the animator to use as params
-        //  anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-        //anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-
+        if (collider_Nada.IsTouching(colBottom))
+        {
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+        }
     }
-   
 
     IEnumerator come()
     {
@@ -88,17 +78,17 @@ public class Nada : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         rigid.velocity = new Vector2(1.3f, rigid.velocity.y);
         //objects.transform.position = Vector3.MoveTowards(objects.transform.position, new Vector3(1.06f, -1.995003f, -1f), Time.deltaTime * moveSpeed);
-      
+
         yield return new WaitForSeconds(2.1f);
-        
+
         move = true;
         GameObject stick = joy.gameObject;
         stick.SetActive(true);
-          Hit.SetActive(true);
-        //limitLeft.transform.position = new Vector3(-1f, 1.5f);
+        Hit.SetActive(true);
+        limitLeft.transform.position += new Vector3(0.51f, 0);
         MainCamera main = FindObjectOfType<MainCamera>();
         main.status_ = true;
-        limitLeft.SetActive(true);
+        
 
     }
 
@@ -113,27 +103,28 @@ public class Nada : MonoBehaviour
             if (facingRight)
             {
                 GetComponent<Animator>().Play("Jump");
-                rigid.AddForce(new Vector2(0.7f, 11.7f), ForceMode2D.Impulse);
+                rigid.AddForce(new Vector2(4, 11.6f), ForceMode2D.Impulse);
             }
             else
             {
                 GetComponent<Animator>().Play("Jump");
-                rigid.AddForce(new Vector2(-0.7f, 11.7f), ForceMode2D.Impulse);
+                rigid.AddForce(new Vector2(-4, 11.6f), ForceMode2D.Impulse);
+
             }
+            
            
         }
-       
+
     }
 
-        void Flip()
-        {
-            // Switch the way the player is labelled as facing
-            facingRight = !facingRight;
+    void Flip()
+    {
+        // Switch the way the player is labelled as facing
+        facingRight = !facingRight;
 
-            // Multiply the player's x local scale by -1
-            Vector3 theScale = transform.localScale;
-            theScale.x *= -1;
-            transform.localScale = theScale;
-        }
+        // Multiply the player's x local scale by -1
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
-
+}
