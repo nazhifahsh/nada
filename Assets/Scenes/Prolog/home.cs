@@ -8,16 +8,16 @@ public class home : MonoBehaviour
 
     public void bck()
     {
-        pulang.SetBool("back", true);
+        pulang.SetTrigger("back 0");
     }
     public void udh()
     {
         Time.timeScale = 1f;
-        pulang.SetBool("udh", true);
+        pulang.SetTrigger("udh 0");
     }
     public void main()
     {
-        pulang.SetBool("main", true);
+        pulang.SetTrigger("main 0");
     }
     public void stopp()
     {
