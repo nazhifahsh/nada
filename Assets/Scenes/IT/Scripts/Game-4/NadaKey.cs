@@ -59,6 +59,14 @@ public class NadaKey : MonoBehaviour
         {
             SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
         }
+        if (transform.eulerAngles.z > 88 && transform.eulerAngles.z < 270)
+        {
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+        }
+        if (transform.eulerAngles.z > -88 && transform.eulerAngles.z < -270)
+        {
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+        }
     }
     public void jump()
     {
