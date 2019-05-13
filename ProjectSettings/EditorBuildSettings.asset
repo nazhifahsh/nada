@@ -108,21 +108,6 @@ EditorBuildSettings:
     path: Assets/Scenes/IT/Game-1.unity
     guid: f6d16329aedaa624cbef85a4b07a979f
   - enabled: 1
-    path: Assets/Scenes/Kucing Pesantren/Kucing Pesantren.unity
-    guid: 1d1656fcf2177554fb5874a108968a21
-  - enabled: 1
-    path: Assets/Scenes/targetmenurun/targetmenurun.unity
-    guid: 2fea3601ddb717c4ca28f9a4e87b0028
-  - enabled: 1
-    path: Assets/Scenes/Chapter.unity
-    guid: 192c5bb88946f9b468153f7bba5ccbfe
-  - enabled: 1
-    path: Assets/Scenes/About.unity
-    guid: b963c0268e17b414587dfe668aef9f98
-  - enabled: 1
-    path: Assets/Scenes/IT/Game-1.unity
-    guid: f6d16329aedaa624cbef85a4b07a979f
-  - enabled: 1
     path: Assets/Scenes/IT/Game-2.unity
     guid: ec10a8ea0e9f3db459a740ae3d457a01
   - enabled: 1
@@ -137,4 +122,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IT/Game-6.unity
     guid: ab2d3654a09c4e94bb1b4dbabff29672
+  - enabled: 1
+    path: Assets/Scenes/IT/IT2.unity
+    guid: 2d7e4a998237d0942ad366ba64d5daa9
+  - enabled: 1
+    path: Assets/Scenes/Kucing Pesantren/Kucing Pesantren.unity
+    guid: 1d1656fcf2177554fb5874a108968a21
+  - enabled: 1
+    path: Assets/Scenes/targetmenurun/targetmenurun.unity
+    guid: 2fea3601ddb717c4ca28f9a4e87b0028
+  - enabled: 1
+    path: Assets/Scenes/Chapter.unity
+    guid: 192c5bb88946f9b468153f7bba5ccbfe
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: b963c0268e17b414587dfe668aef9f98
   m_configObjects: {}
