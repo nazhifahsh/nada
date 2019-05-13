@@ -11,6 +11,7 @@ public class Azam : MonoBehaviour
     public Collider2D collider_Right;
     private bool facingRight = true;
     public float speed;
+    public bool canWalk_ = true;
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
@@ -59,6 +60,10 @@ public class Azam : MonoBehaviour
         Vector3 defaultPpos = transform.position;
         rigid.velocity = new Vector2(1.3f, rigid.velocity.y);
         // transform.position = Vector3.MoveTowards(transform.position, new Vector3(9.4f, -1.928216f, -1),Time.deltaTime * 2f);
+
+    }
+    public void stopAzam()
+    {
 
     }
         private void FixedUpdate()

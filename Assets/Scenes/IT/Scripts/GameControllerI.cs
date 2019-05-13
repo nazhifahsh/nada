@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameControllerI : MonoBehaviour
@@ -14,15 +15,22 @@ public class GameControllerI : MonoBehaviour
     public GameObject text;
     private int touch_count = 0;
     private Text texts;
+    Ustadzah ustadzah_;
+  
 
     // Start is called before the first frame update
+
+
     void Start()
     {
         collider_Nada = nada.GetComponent<Collider2D>();
         collider_ust = ustadzah.GetComponent<Collider2D>();
         rigid_ust = ustadzah.GetComponent<Rigidbody2D>();
         rigid_nada = nada.GetComponent<Rigidbody2D>();
-        texts = text.GetComponent<Text>();
+        texts = text.GetComponentInChildren<Text>();
+        ustadzah_= FindObjectOfType<Ustadzah>();
+       
+
     }
 
     // Update is called once per frame
@@ -32,7 +40,7 @@ public class GameControllerI : MonoBehaviour
         {
             Text_Status = true;
         }
-
+       
 
     }
 
@@ -41,10 +49,15 @@ public class GameControllerI : MonoBehaviour
         if (Text_Status)
         {
             enabled = false;
-            Ustadzah ustadzah = FindObjectOfType<Ustadzah>();
-            ustadzah.speed = 0;
+            
+            ustadzah_.speed = 0;
             rigid_ust.constraints = RigidbodyConstraints2D.FreezeAll;
             text.SetActive(true);
+            Nada nada = FindObjectOfType<Nada>();
+            nada.canWalk = false;
+            GameObject joy = nada.joy.gameObject;
+            joy.SetActive(false);
+            nada.Hit.SetActive(false);
         }
       
     }
@@ -57,8 +70,7 @@ public class GameControllerI : MonoBehaviour
         switch (touch_count)
         {
             case 1:
-                texts.text = "Waalaikumsalam Nada...";
-                texts.color = Color.blue;
+                texts.text = "Waalaikumsalam Nada...";        
                 break;
             case 2:
                 texts.text = "";
@@ -67,8 +79,11 @@ public class GameControllerI : MonoBehaviour
                 GameObject joy = nada.joy.gameObject;
                 joy.SetActive(true);
                 nada.Hit.SetActive(true);
+                nada.canWalk = true;
                 Destroy(collider_ust);
-                ustadzah.transform.position = Vector3.MoveTowards(ustadzah.transform.position, new Vector3(-5, ustadzah.transform.position.y), Time.deltaTime * 2f);
+                rigid_ust.constraints = ~RigidbodyConstraints2D.FreezePositionX;
+                ustadzah_.speed = 1;
+                ustadzah.transform.position += Vector3.left * Time.deltaTime;
                 break;
         }
     }
