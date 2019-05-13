@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NadaCableController : MonoBehaviour
 {
@@ -41,6 +42,14 @@ public class NadaCableController : MonoBehaviour
         else
         {
             GetComponent<Animator>().SetFloat("Speed", 0);
+        }
+        if (transform.eulerAngles.z > 88 && transform.eulerAngles.z < 270)
+        {
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+        }
+        if (transform.eulerAngles.z > -88 && transform.eulerAngles.z < -270)
+        {
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
         }
         if (GetComponent<Collider2D>().IsTouching(limit.GetComponent<Collider2D>()))
         {

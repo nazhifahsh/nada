@@ -61,6 +61,7 @@ public class GameControllerII : MonoBehaviour
                 break;
             case 3:
                 text_.text = "Hehehehehe";
+                text_.color = Color.black;
                 break;
             case 4:
                 Destroy(limitTouch);
