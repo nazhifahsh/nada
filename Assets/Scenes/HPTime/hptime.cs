@@ -7,6 +7,7 @@ public class hptime : MonoBehaviour
 {
     public Animator domba;
     public AudioSource bo;
+    public AudioSource ko;
 
     public void h1()
     {
@@ -100,5 +101,17 @@ public class hptime : MonoBehaviour
     {
         bo.Play();
     }
-   
+    public void hoho()
+    {
+        bo.Stop();
+    }
+    public void heheh()
+    {
+        ko.Play();
+    }
+    public void hohoh()
+    {
+        ko.Stop();
+    }
+
 }
