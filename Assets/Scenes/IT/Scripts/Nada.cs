@@ -68,6 +68,16 @@ public class Nada : MonoBehaviour
                 }
 
             }
+            Debug.Log(transform.eulerAngles.z);
+            if(transform.eulerAngles.z >88 && transform.eulerAngles.z < 270)
+            {
+                SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+            }
+            if (transform.eulerAngles.z > -88 && transform.eulerAngles.z < -270)
+            {
+                SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+            }
+
         }
        
 
@@ -113,12 +123,12 @@ public class Nada : MonoBehaviour
             if (facingRight)
             {
                 GetComponent<Animator>().Play("Jump");
-                rigid.AddForce(new Vector2(0.7f, 11.7f), ForceMode2D.Impulse);
+                rigid.AddForce(new Vector2(2f, 11.7f), ForceMode2D.Impulse);
             }
             else
             {
                 GetComponent<Animator>().Play("Jump");
-                rigid.AddForce(new Vector2(-0.7f, 11.7f), ForceMode2D.Impulse);
+                rigid.AddForce(new Vector2(-2f, 11.7f), ForceMode2D.Impulse);
             }
            
         }
@@ -135,5 +145,23 @@ public class Nada : MonoBehaviour
             theScale.x *= -1;
             transform.localScale = theScale;
         }
+    private static float WrapAngle(float angle)
+    {
+        angle %= 360;
+        if (angle > 180)
+            return angle - 360;
+
+        return angle;
     }
+
+    private static float UnwrapAngle(float angle)
+    {
+        if (angle >= 0)
+            return angle;
+
+        angle = -angle % 360;
+
+        return 360 - angle;
+    }
+}
 

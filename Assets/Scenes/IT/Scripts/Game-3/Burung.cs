@@ -6,7 +6,7 @@ using UnityEngine;
 public class Burung : MonoBehaviour
 {
     public GameObject bird;
-    public float spawnTime = 3f;
+    public float spawnTime = 30f;
     private Vector3 BeginngingPos;
     public Transform spwanPosition;
     // Start is called before the first frame update
