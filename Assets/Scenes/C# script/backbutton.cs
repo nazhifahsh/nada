@@ -8,6 +8,7 @@ public class backbutton : MonoBehaviour
     public void Back()
     {
         SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1f;
     }
 
     public void prolog()

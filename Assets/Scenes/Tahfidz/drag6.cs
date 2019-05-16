@@ -49,6 +49,7 @@ public class drag6 : MonoBehaviour
 
                         yay = true;
                     }
+
                     else
                     {
                         transform.position = new Vector2(initialPosition.x, initialPosition.y);
