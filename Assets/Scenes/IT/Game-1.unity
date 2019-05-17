@@ -1502,7 +1502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bird: {fileID: 789925584}
-  spawnTime: 5
+  spawnTime: 30
   spwanPosition: {fileID: 558747470}
 --- !u!95 &789925586
 Animator:
