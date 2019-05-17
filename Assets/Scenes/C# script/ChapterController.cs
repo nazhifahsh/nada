@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class ChapterController : MonoBehaviour
 {
-    public Button Prolog, Keberangkatan, TangisNada, Bismillah, BelumTerbiasa, Sarapan, SudutPesantren, Tahfizh, qcb, kucingPesantren, Diariku, HPTime, TargetMenurun;
+    public Button Prolog, Keberangkatan, BelumTerbiasa, Sarapan, Tahfizh, qcb, kucingPesantren, Diariku, HPTime, TargetMenurun;
     int levelPassed;
     
     void Start()
@@ -15,11 +15,8 @@ public class ChapterController : MonoBehaviour
         levelPassed = PlayerPrefs.GetInt("LevelPassed");
         Prolog.interactable = false;
         Keberangkatan.interactable = false;
-        TangisNada.interactable = false;
-        Bismillah.interactable = false;
         BelumTerbiasa.interactable = false;
         Sarapan.interactable = false;
-        SudutPesantren.interactable = false;
         Tahfizh.interactable = false;
         qcb.interactable = false;
         Diariku.interactable = false;
@@ -50,11 +47,8 @@ public class ChapterController : MonoBehaviour
     {
         Prolog.interactable = false;
         Keberangkatan.interactable = false;
-        TangisNada.interactable = false;
-        Bismillah.interactable = false;
         BelumTerbiasa.interactable = false;
         Sarapan.interactable = false;
-        SudutPesantren.interactable = false;
         Tahfizh.interactable = false;
         qcb.interactable = false;
         Diariku.interactable = false;
