@@ -32,7 +32,6 @@ public class ChapterController : MonoBehaviour
             case 12:
                 Prolog.interactable = true;
                 Keberangkatan.interactable = true;
-   
                 break;
         }
         
