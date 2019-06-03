@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class targetmenurun : MonoBehaviour
 {
     public Animator hehe;
+    public AudioSource hoho;
 
     public void t1()
     {
@@ -69,6 +70,10 @@ public class targetmenurun : MonoBehaviour
     }
     public void yoayo()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void yu()
+    {
+        hoho.Play();
     }
 }
