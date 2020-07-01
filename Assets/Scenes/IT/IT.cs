@@ -86,4 +86,8 @@ public class IT : MonoBehaviour
     {
         yoo.Play();
     }
+    public void nyanya()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }

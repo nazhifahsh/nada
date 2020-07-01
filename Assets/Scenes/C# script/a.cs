@@ -32,4 +32,8 @@ public class a : MonoBehaviour
     {
         aw.SetBool("hehehehe", true);
     }
+    public void drr()
+    {
+        Handheld.Vibrate();
+    }
 }

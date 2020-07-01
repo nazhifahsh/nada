@@ -12,6 +12,10 @@ public class MainMenu : MonoBehaviour
     {
         ye.SetBool("story", true);
     }
+    public void storyy()
+    {
+        ye.SetBool("story", false);
+    }
     public void PlayGame()
     {
       

@@ -17,5 +17,10 @@ public class things : MonoBehaviour
         img.score += 1;
         
     }
+    public void sj()
+    {
+        animator.SetTrigger("yey");
+        img.score += 1;
+    }
    
 }

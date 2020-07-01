@@ -15,7 +15,7 @@ public class NadaKey : MonoBehaviour
     Rigidbody2D rigid;
     GameObject objects;
     public GameObject limitLeft, limitBottom;
-    private Collider2D colBottom;
+    private Collider2D colBottom, colLeft;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +25,7 @@ public class NadaKey : MonoBehaviour
         NadaKey mario = FindObjectOfType<NadaKey>();
         objects = mario.gameObject;
         colBottom = limitBottom.GetComponent<Collider2D>();
+        colLeft = limitLeft.GetComponent<Collider2D>();
         MainCamera main = FindObjectOfType<MainCamera>();
         main.status_ = true;
     }
@@ -67,6 +68,11 @@ public class NadaKey : MonoBehaviour
         {
             SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
         }
+        if (collider_Nada.IsTouching(colLeft))
+        {
+            SceneManager.LoadScene("Game-5", LoadSceneMode.Single);
+        }
+       
     }
     public void jump()
     {

@@ -5,14 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class diari : MonoBehaviour
 {
+
     public Animator hiya;
     public void sl1()
     {
-        hiya.SetBool("s1", true);
+        hiya.SetTrigger("s1");
     }
     public void sl2()
     {
-        hiya.SetBool("s2", true);
+        hiya.SetTrigger("p");
     }
     public void sl3()
     {

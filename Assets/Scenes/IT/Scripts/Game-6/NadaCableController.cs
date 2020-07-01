@@ -54,6 +54,7 @@ public class NadaCableController : MonoBehaviour
         if (GetComponent<Collider2D>().IsTouching(limit.GetComponent<Collider2D>()))
         {
             Debug.Log("Finish");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
