@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class thps : MonoBehaviour
 {
     public Animator ayam;
+    public AudioSource me;
     public static int bekotek=0;
     public static int bekotek2 = 0;
     public static int bekotek3 = 0;
@@ -22,6 +23,10 @@ public class thps : MonoBehaviour
     public static int bekotek14= 0;
     public static bool satu, dua, tiga, empat, lima, enam, tujuh;
 
+    public void wu()
+    {
+        me.Play();
+    }
     public void a1()
     {
         ayam.SetBool("1", true);

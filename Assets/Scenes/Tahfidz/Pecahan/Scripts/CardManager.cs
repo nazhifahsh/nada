@@ -122,7 +122,7 @@ public class CardManager : MonoBehaviour
     IEnumerator GameAgain()
     {
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("Tahfizh 3");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 
