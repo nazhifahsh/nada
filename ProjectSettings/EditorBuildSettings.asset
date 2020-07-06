@@ -5,7 +5,106 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: da03f4df9a6161e4baaa3ba81c59138b
+  - enabled: 1
+    path: Assets/Scenes/MainMenu/MainMenu.unity
+    guid: 57cedcd9ac9d95a4797d0ab1dba2607b
+  - enabled: 1
+    path: Assets/Scenes/Prolog/Prolog.unity
+    guid: 9ba5fad8bd5b2f1469317541a69bf3d2
+  - enabled: 1
+    path: Assets/Scenes/Prolog/Prolog2.unity
+    guid: 802a5e59bad2f8042994bdc3a4901a8a
+  - enabled: 1
+    path: Assets/Scenes/Prolog/Prolog3.unity
+    guid: 637c4a8d06d5a2a4b9d57cc7888c71d7
+  - enabled: 1
+    path: Assets/Scenes/Prolog/Prolog4.unity
+    guid: 125e99adfabc27a42b300e1e8f5612e8
+  - enabled: 1
+    path: Assets/Scenes/Keberangkatan/Keberangkatan1.unity
+    guid: a21edabef69c23441be25633238dea37
+  - enabled: 1
+    path: Assets/Scenes/Keberangkatan/Keberangkatan2.unity
+    guid: c7c8a21e8802e044baa891d055648729
+  - enabled: 1
+    path: Assets/Scenes/Keberangkatan/Keberangkatan2,5.unity
+    guid: 6a0f7889cc36257458d0d94a68511cb7
+  - enabled: 1
+    path: Assets/Scenes/Keberangkatan/Keberangkatan3.unity
+    guid: 10232375f897294459d79a73cd630134
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa.unity
+    guid: a060b1c0f7da3414ab2ac2ba69569a9a
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa 2.unity
+    guid: 609e51642c7536f4ba078403454e1d80
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa 2.2.unity
+    guid: dd4feccf9b3ac7c4ebc16966fc9d3b56
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa3.unity
+    guid: 12fc348ff547cc940a276d2f163befc6
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa3.2.unity
+    guid: 092c1c2775111f940a25944d3608f710
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa3.3.unity
+    guid: 1a6f6aa777c4a634dbd1f6c9edddb988
+  - enabled: 1
+    path: Assets/Scenes/Belum Terbiasa/Belum Terbiasa4.unity
+    guid: c357843972b62a142a4b386d88175f5b
+  - enabled: 1
+    path: Assets/Scenes/Sarapan/Sarapan.unity
+    guid: 9505d50ca98cecc4e8435ed73e82bd85
+  - enabled: 1
+    path: Assets/Scenes/Tahfidz/Tahfizh.unity
+    guid: 5efd72b02097f064eaa641e1032f80ba
+  - enabled: 1
+    path: Assets/Scenes/Tahfidz/Tahfidz 2.unity
+    guid: 20f6f31dc6f8a7240b8db3a6fc4558b5
+  - enabled: 1
+    path: Assets/Scenes/Tahfidz/Tahfidz 3.5.unity
+    guid: c4f593d55ccac7e4b85e558d4e0b25be
+  - enabled: 1
+    path: Assets/Scenes/QCB/qcb.unity
+    guid: 9ede0ee577c61664a894bee5615e93dc
+  - enabled: 1
+    path: Assets/Scenes/QCB/bgameqcb.unity
+    guid: 3de9982c3af86ba42919deb8e29c69b7
+  - enabled: 1
+    path: Assets/Scenes/QCB/gameqcb.unity
+    guid: fa4fde2b88b967c42876a5be0cc2506d
+  - enabled: 1
+    path: Assets/Scenes/QCB/qcb2.unity
+    guid: b6c6298701a8c9249a81209378cda9fa
+  - enabled: 1
+    path: Assets/Scenes/QCB/gameqcb2.unity
+    guid: 02db2e4fd0f96924b8f255deacf52754
+  - enabled: 1
+    path: Assets/Scenes/QCB/gameqcb3.unity
+    guid: 6ced45396af1422439a35d551bffbe51
+  - enabled: 1
+    path: Assets/Scenes/Diariku/Diariq.unity
+    guid: 5e04a2ad5347c464f9cf9548af8fc743
+  - enabled: 1
+    path: Assets/Scenes/HPTime/hptime.unity
+    guid: 1934bef4e4adc0a428d7bd9122054c9c
+  - enabled: 1
+    path: Assets/Scenes/Kucing Pesantren/Kucing Pesantren.unity
+    guid: 1d1656fcf2177554fb5874a108968a21
+  - enabled: 1
+    path: Assets/Scenes/targetmenurun/targetmenurun.unity
+    guid: 2fea3601ddb717c4ca28f9a4e87b0028
+  - enabled: 1
+    path: Assets/Scenes/Chapter/Chapter.unity
+    guid: 192c5bb88946f9b468153f7bba5ccbfe
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: b963c0268e17b414587dfe668aef9f98
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 40ec5d8cc3484b041846123f617a957f
   m_configObjects: {}

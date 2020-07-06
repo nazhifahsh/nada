@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
 
     public void story()
     {
+        ExampleCoroutine();
         ye.SetBool("story", true);
     }
     public void storyy()
@@ -25,23 +26,33 @@ public class MainMenu : MonoBehaviour
 
     public void OpenChapter()
     {
+        ExampleCoroutine();
         SceneManager.LoadScene("Chapter");
     }
 
     public void Settings()
     {
+        ExampleCoroutine();
         SceneManager.LoadScene("Settings");
     }
 
     public void About()
     {
+        ExampleCoroutine();
         SceneManager.LoadScene("About");
     }
 
     public void QuitGame()
     {
+        ExampleCoroutine();
         Debug.Log("Quit");
         Application.Quit();
     }
-  
+
+    IEnumerator ExampleCoroutine()
+    {
+
+        yield return new WaitForSeconds(1);
+
+    }
 }

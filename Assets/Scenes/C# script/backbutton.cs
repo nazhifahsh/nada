@@ -7,6 +7,7 @@ public class backbutton : MonoBehaviour
 {
     public void Back()
     {
+        ExampleCoroutine();
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1f;
     }
@@ -59,5 +60,18 @@ public class backbutton : MonoBehaviour
     public void TargetTurun()
     {
         SceneManager.LoadScene("targetmenurun");
+    }
+    public void fq(){
+        Application.OpenURL("https://www.sekolahimpian.com/Home/Fahim%20Quran%20Plus.html");
+    }
+    public void df()
+    {
+        Application.OpenURL("https://www.sekolahimpian.com/Home/page8.html");
+    }
+    IEnumerator ExampleCoroutine()
+    {
+
+        yield return new WaitForSeconds(1);
+
     }
 }
